@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+	<title>Smit Anand</title>
+	<link rel="stylesheet" href="css\style.css">
+</head>
+<meta name="author" content="Darshil Gosai">
+<meta http-equiv="refresh" content="60">
+<meta charset="UTF-8">
+
+<body>
+
+<video id="bgvid" playsinline autoplay muted loop >
+	
+	<source src="http://thenewcode.com/assets/videos/nambia2.webm" type="video/webm">
+	<source src="http://thenewcode.com/assets/videos/nambia2.mp4" type="video/mp4">
+
+</video>
+
+
+<!-- <div class="container"> 
+	
+	<header>
+	<h1>&#9829 Smit Anand &#9829</h1>
+	</header>-->
+<header>
+	<!--upper header-->
+	<div id="logo">
+		<img href="home.html" src="image\logo.png" style="height: 200px;margin-left: 20px;">
+			<div id="logo_text">
+				<h1 align="center"><a href="home.html">Smit Anand</a></h1>
+				<h2 align="center">DESIGNER|ANIMATOR|DIRECTOR<br>PHOTOGRAPHER|CINEMETROGRAPHER|</h2>	
+			</div>
+		<!--logo text complete-->
+	</div>
+	<!--upper header complete-->
+	
+	<!--menubar-->
+	<nav id="menubar">
+		<ul id="menu">
+           <li><a href="Smit_Anand.html">Home</a></li>
+          <li><a href="photos.html">Photography</a></li>
+          <li><a href="films.html">Film & short films</a></li>
+          <li><a href="service.html">Clients</a></li>
+         <!-- <li><a href="about.html">about</a></li>-->
+          <li class="selected"><a href="contact.html">Contact Us</a></li>
+        </ul>
+	</nav>
+	<!--menubar complete-->
+	
+</header>
+
+	<h2>E-mail : mailtosmit1410@gmail.com</h2>
+	<h2>E-mail : smitphotostudio@gmail.com</h2>
+
+	<form action="mailto:mailtosmit1410@gmail.com" method="post" enctype="text/plain" autocomplete="on">
+		<fieldset>
+			<legend>Personal Information</legend>
+			
+			First Name :<br>
+			<input type="text" name="firstname" placeholder="First Name" required><br><br>
+			Last Name :<br>
+			<input type="text" name="lastname" placeholder="Last Name"><br><br>
+			E-mail :<br>
+			<input type="text" name="mail" autocomplete="off"><br><br>
+			Gender :
+			<input type="radio" name="gender" value="male" checked>Male
+			<input type="radio" name="gender" value="female">Female
+			<input type="radio" name="gender" value=""other>other
+			<br><br>
+
+			Your country :<br>
+			<input list="country" name="country" placeholder="Country">
+				<datalist id="country">
+					<option value="India">
+					<option value="U.S.A">
+					<option value="Poland">
+					<option value="Canada">
+					<option value="England">
+					<option value="Australia">
+					<option value="New Zeland">
+					<option value="Other">
+				</datalist><br><br>
+			
+			Select Your Intereset Fied :<br>
+			<select name="interestfield">
+				<option value="Direction">Direction</opton>
+				<option value="dop">Direction Of Photography</option>
+				<option value="artdirection">Art Direction</option>
+				<option value="acting">Acting</option>
+				<option value="writting">writting</option>
+				<option value="production">Producation</option>
+			</select><br><br>
+			
+			Comment :<br>
+			<textarea name="comment" vaue="comment" rows="10" cols="100"></textarea><br><br>
+			<button type="button" onclick="alert('Your data submitted!')">Submit</button>
+			<input type="reset" value="reset">
+
+		</fieldset>
+	</form>
+
+
+	
+</div>	
+<footer>Copyright &copy Smit Anand</footer>
+</body>
+
+
+</html>

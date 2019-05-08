@@ -1,0 +1,267 @@
+div.container
+{
+	width: 100%;
+	border: 1px solid;
+}
+footer
+{	margin: 0 auto;
+	padding: 1em;
+	color:#ffffff;
+	/*background-color:#000000;*/
+	clear:left;
+	text-align:center;
+	
+}
+header{margin: 0 auto;
+width: 1024px;}
+#logo
+{
+	width: 1024px;
+	position: relative;
+	height: 200px;
+	/*background: #000;*/
+}
+
+#logo #logo_text 
+{ position: absolute; 
+  top: 40px;
+  left: 400px;}
+
+#logo h1, #logo h2
+{ font: normal 300% 'century gothic', arial, sans-serif;
+  border-bottom: 0;
+  text-transform: none;
+  margin: 0;}
+
+#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover 
+{
+	padding-top: 0px;
+	padding-bottom: 0;
+	color: #FFF;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+}
+
+#logo_text h1 a .logo_colour
+{ color: #80FFFF;}
+
+#logo_text h2
+{
+	font-size: 100%;
+	padding-top: 11px;
+	padding-right: 0px;
+	padding-bottom: 0;
+	color: #DDD;
+	padding-left: 0px;
+}
+#menu{align-content: center;
+margin: 0 auto;
+width: 1024px;
+}
+#menubar #menu a{color: yellow}
+
+#menubar
+{ width: 1024px;
+  height: 72px;
+  
+  /*background: #29415D*/
+  
+  } 
+
+ul#menu, ul#menu li
+{ float: left;
+align-content: center;
+  margin: 0; 
+ }
+
+ul#menu li
+{ list-style: none;}
+
+ul#menu li a
+{ letter-spacing: 0.1em;
+  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+  display: block; 
+  float: left; 
+  height: 37px;
+  padding: 29px 26px 6px 26px;
+  text-align: center;
+  /*color: #FFF;*/
+  text-transform: uppercase;
+  text-decoration: none;
+ } 
+
+ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
+{ color: #FFF;
+  background: #1C2C3E;
+}
+
+
+/* article
+{
+	margin-left: 180px;
+	border-left: 1px solid red; 
+	padding:1em;
+	overflow:hidden;
+} */
+
+/*.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}*/
+
+article.live
+{
+	margin-right:0px;
+	border:none;
+	
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* body
+{
+	background-color:#808080;
+} */
+h2
+{
+	color:#ffffff;
+}
+legend
+{
+	color:#ffffff;
+}
+
+
+span.start
+{
+	color:red;
+}
+
+img#img01
+{
+	width:388px;
+	height:130px;
+	float:right;
+	margin:10px;
+	
+}
+p#p01
+{
+	font-size:25px;
+	margin:30px;
+	color:#ffffff;
+}
+
+
+
+iframe
+{
+	float:center;
+	border:2px solid;
+	height:350px;
+	width:1300px;
+	
+}
+/*
+ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+*/
+
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+.stopfade { 
+   opacity: .5;
+}
+.clients{width: 1024px;
+			margin: 0 auto;
+			border: solid5px;}
+.clients img{padding: 10px;}
+.clients_left{width: 500px;
+		margin: 0 auto;
+		float: left;
+		padding: 5px;}
+.clients_right{width: 450px;
+		margin: 0 auto;
+		padding: 5px;
+		float: right;}
+.clients p{color: white;}
+
+
+@media screen and (max-width: 500px) { 
+  div{width:70%;} 
+}
+@media screen and (max-device-width: 800px) {
+  html { background: url(https://thenewcode.com/assets/images/polina.jpg) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
